@@ -5,7 +5,7 @@ import java.io.Serializable;
 public interface ITestHibernateDAO {
 
 	public Object test();
-
+	public int test1() ;
 	public boolean addMoney(int userId,float money);
 	
 	public boolean minusMoney(int userId,float money);
